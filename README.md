@@ -7,7 +7,7 @@ This repository contains the official PyTorch implementation for the paper
 
 ### Clone this Repo
 The code was tested with CUDA 12.0 python 3.9 Pytorch 2.0.1
-    ```
+```
     pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
     pip install matplotlib==3.6.3 scipy==1.10.0 tqdm==4.64.1
     pip install numpy==1.24.1 timm==0.6.12
@@ -21,7 +21,7 @@ The code was tested with CUDA 12.0 python 3.9 Pytorch 2.0.1
     # Build CUDA operator for MultiScaleDeformableAttention
     cd h_detr/models/ops
     python setup.py build install
-    ```
+```
 ### Conda
 To set up an Anaconda environment, run the following commands from:
 ```
