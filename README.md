@@ -79,5 +79,5 @@ CUDA_VISIBLE_DEVICES=0,1 DETR=base python main.py --resume outputs/pgd-detr-r50-
 ```
 ## Acknowledgement
 
-This repository is built upon the official implementation of[PVIC](https://github.com/fredzzhang/pvic?tab=readme-ov-file).
+This repository is built upon the official implementation of [PVIC](https://github.com/fredzzhang/pvic?tab=readme-ov-file).
 We thank the authors for their excellent codebase and open-source contribution.
